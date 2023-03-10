@@ -1,0 +1,53 @@
+<body>
+  <div class="container my-5" align="center">
+    <form>
+      <fieldset><legend>Sign up</legend></fieldset>
+      <app-header></app-header>
+      <div class="form-fields">
+        <div class="mb-3">
+          <input
+            type="text"
+            value="Enter Username"
+            class="form-control"
+            id="exampleInputname"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            value="Enter Email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            value="Enter Password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            value="Enter Password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+
+
+      </div>
+
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+
+      <div class="end">
+        <span>Already have an account?</span>
+        <span id="login" (click)="login()"> Login</span>
+      </div>
+    </form>
+  </div>
+</body>

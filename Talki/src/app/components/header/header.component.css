@@ -1,0 +1,11 @@
+
+#title{
+    font-size: 3rem; 
+    text-shadow: 1px 0 #060606, -1px 0 #070606, 0 1px #161313, 0 -1px #0b0b0b,
+    1px 1px #171616, -1px -1px #150e0e, 1px -1px #0b0a0a, -1px 1px #080808;
+}
+svg{
+margin-left: 1rem;
+height:4rem;
+width:4rem;
+}

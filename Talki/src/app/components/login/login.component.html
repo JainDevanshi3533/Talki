@@ -1,0 +1,38 @@
+<body>
+    <div class="container my-5" align="center">
+      <form>
+        <fieldset><legend>Login</legend></fieldset>
+
+        <app-header></app-header>
+
+        <div class="form-fields">
+          <div class="mb-3">
+            <input
+              type="text"
+              value="Enter Username"
+              class="form-control"
+              id="exampleInputname"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="password"
+              value="Enter Password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+   
+        </div>
+  
+        <button type="submit" class="btn btn-primary">Login</button>
+  
+        <div class="end">
+          <span>No account?</span>
+          <span id="login" (click)="signup()"> Create new account</span>
+        </div>
+      </form>
+    </div>
+  </body>
+  
