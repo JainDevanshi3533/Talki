@@ -1,0 +1,12 @@
+
+.controls{
+    margin:0 30%;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls div svg{
+    height:65%;
+    width: 65%;
+}

@@ -13,6 +13,10 @@ import { MainComponent } from './pages/main/main.component';
 import { NavbarComponent } from './components/main/navbar/navbar.component';
 import { ContentComponent } from './components/main/content/content.component';
 import { HomeComponent } from './pages/home/home.component';
+import { JoinMeetComponent } from './components/home/join-meet/join-meet.component';
+import { SchMeetComponent } from './components/home/sch-meet/sch-meet.component';
+import { MeetingScreenComponent } from './pages/meeting-screen/meeting-screen.component';
+import { MeetFooterComponent } from './components/meeting-screen/meet-footer/meet-footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { HomeComponent } from './pages/home/home.component';
     MainComponent,
     NavbarComponent,
     ContentComponent,
-    HomeComponent
+    HomeComponent,
+    JoinMeetComponent,
+    SchMeetComponent,
+    MeetingScreenComponent,
+    MeetFooterComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, NgbModule],
   providers: [],

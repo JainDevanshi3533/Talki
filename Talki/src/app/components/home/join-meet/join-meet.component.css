@@ -1,0 +1,43 @@
+.main{
+    margin:2rem;
+}
+
+.options{
+    margin:2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+input,button{
+    text-align: center;
+    width:100%;
+    border-radius: 10px;
+    padding:0.5rem;
+    height:auto;
+    border:2px solid white;
+}
+
+.opt1 button{
+    border-top-right-radius:0%;
+    border-top-left-radius:0%;
+}
+
+.opt1 input{
+    border-bottom-right-radius:0%;
+    border-bottom-left-radius:0%;
+}
+
+
+.opt2{
+    margin:2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+button{
+    background-color: #4adc96;
+}

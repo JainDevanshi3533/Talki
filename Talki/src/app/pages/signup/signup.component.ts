@@ -11,4 +11,7 @@ export class SignupComponent {
   login(){
     this.router.navigate(['login']);
   }
+  home(){
+    this.router.navigate(['home']);
+  }
 }

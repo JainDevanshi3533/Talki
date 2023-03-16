@@ -1,4 +1,8 @@
-body{
+*{
     font-family: 'Aladin', cursive;
     color: white;
+}
+
+.main_title{
+    margin-top:6rem;
 }

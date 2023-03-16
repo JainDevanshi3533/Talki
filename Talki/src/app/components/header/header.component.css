@@ -1,0 +1,34 @@
+*{
+    color:white;
+   
+}
+
+#title{
+    cursor: pointer;
+}
+.main{
+ background-color: #5e5b6b;
+}
+
+hr{
+    margin-bottom: 0;
+}
+.header-main{ 
+   
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-top:1rem;
+}
+
+.header-left span{
+    margin:0rem 0.4rem;
+}
+
+.header-right span{
+    margin: -1rem 0.7rem;
+}
+
+svg{
+    cursor: pointer;
+}

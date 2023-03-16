@@ -12,18 +12,23 @@ opacity: 0.8;
 }
 
 .right{
-    min-width: 40%;
-    padding:0 2rem;
+    min-width: 500px;
+    max-height: 0;
+    padding: 0 2rem;
     display: flex;
-    flex-wrap:wrap;
-    flex:40%;
+    flex-wrap: wrap;
+    flex: 40%;
     flex-shrink: 0;
-
 }
 .right img{
     width:12rem;
     height:12rem;
     padding:2rem;
+    cursor: pointer;
+    transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+    
 }
 .right img:nth-child(1){
     border-right: 5px solid #4adc96 ;
@@ -35,3 +40,9 @@ opacity: 0.8;
 .right img:nth-child(3){
     border-right: 5px solid #4adc96 ;
 }
+
+.right img:hover{
+    transform: scale(1.2);
+    border:2px solid #4adc96;
+}
+
