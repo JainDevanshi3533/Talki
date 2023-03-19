@@ -17,6 +17,7 @@ import { JoinMeetComponent } from './components/home/join-meet/join-meet.compone
 import { SchMeetComponent } from './components/home/sch-meet/sch-meet.component';
 import { MeetingScreenComponent } from './pages/meeting-screen/meeting-screen.component';
 import { MeetFooterComponent } from './components/meeting-screen/meet-footer/meet-footer.component';
+import { EditProfileComponent } from './pages/edit-profile/edit-profile.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MeetFooterComponent } from './components/meeting-screen/meet-footer/mee
     JoinMeetComponent,
     SchMeetComponent,
     MeetingScreenComponent,
-    MeetFooterComponent
+    MeetFooterComponent,
+    EditProfileComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, NgbModule],
   providers: [],

@@ -18,4 +18,8 @@ export class HeaderComponent {
   main(){
     this.router.navigate(['']);
  }
+
+ edit_profile(){
+  this.router.navigate(['edit_profile']);
+ }
 }

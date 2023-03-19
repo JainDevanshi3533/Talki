@@ -28,6 +28,9 @@ hr{
 .header-right span{
     margin: -1rem 0.7rem;
 }
+span{
+    cursor: pointer;
+}
 
 svg{
     cursor: pointer;
